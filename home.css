@@ -68,15 +68,15 @@
     background-color: #FFDE0A;
     position: relative;
     align-content: center;
-    margin-left: 400px;
-    margin-right: 400px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
     text-align: justify;
     color: black;
     font-family: Roboto Mono;
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .playlist {
@@ -104,7 +104,7 @@
     color: black;
     font-family: Roboto Mono;
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .social {
