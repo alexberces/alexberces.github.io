@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+}
+
+#welcome {
+    font-family: Roboto Mono;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#intro {
+    text-align: center;
+    position: relative;
+    top: -14px;
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav {
+    width: 100%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+.nav p {
+    position: relative;
+    top: -12px;
+    align-content: center;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    text-align: justify;
+    align-content: center;
+    position: relative;
+}
+
+#about {
+    font-family: Roboto Mono;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: -1px;
+}
+
+#aboutme {
+    background-color: #FFDE0A;
+    position: relative;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    color: black;
+    font-family: Roboto Mono;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.playlist {
+    position: relative;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#playlist {
+    font-family: Roboto Mono;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: -1px;
+}
+
+.playlist p {
+    position: relative;
+    align-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    color: black;
+    font-family: Roboto Mono;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.social {
+    position: static;
+    width: 140px;
+    background-color: black;
+    text-align: center;
+}
+
+.social img {
+    margin: 5px;
+}
+
+.social a {
+    text-align: center;
+    border: 0px;
+    position: relative;
+}
