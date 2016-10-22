@@ -105,6 +105,7 @@
     font-family: Roboto Mono;
     font-size: 12px;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .social {
@@ -122,4 +123,9 @@
     text-align: center;
     border: 0px;
     position: relative;
+}
+
+iframe {
+    margin-bottom: 40px;
+    width: 30%;
 }
