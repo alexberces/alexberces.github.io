@@ -25,6 +25,7 @@
 
 .nav {
     width: 100%;
+    min-width: 100%;
     position: relative;
     align-content: center;
     text-align: center;
@@ -70,6 +71,7 @@
 }
 
 #about {
+    width: 100%;
     font-family: Roboto Mono;
     font-weight: 400;
     font-size: 25px;
@@ -79,6 +81,8 @@
 }
 
 #aboutme {
+    max-width: 45%;
+    min-width: 45%;
     background-color: #FFDE0A;
     position: relative;
     align-content: center;
@@ -86,8 +90,8 @@
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
     color: black;
     font-family: Roboto Mono;
@@ -96,15 +100,19 @@
 }
 
 .interests {
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 40%;
     text-align: center;
     align-content: center;
     position: relative;
     top: 15px;
-    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .interests h1 {
+    width: 100%;
     font-family: Roboto Mono;
     font-weight: 400;
     font-size: 25px;
@@ -114,6 +122,7 @@
 }
 
 .interests div {
+    max-height: 200px;
     text-align: center;
     display: inline-block;
     position: relative;
@@ -121,17 +130,13 @@
     height: 200px;
 }
 
-#manga img {
+.interests img {
     height: 200px;
 }
 
 #movies img {
     position: relative;
     top: 20px;
-    height: 200px;
-}
-
-#anime img {
     height: 200px;
 }
 
@@ -200,7 +205,7 @@
 
 .playlist {
     position: relative;
-    top: -90px;
+    top: 10px;
     width: 100%;
     text-align: center;
 }
@@ -217,14 +222,16 @@
 .playlist p {
     position: relative;
     align-content: center;
-    padding-left: 400px;
-    padding-right: 400px;
     text-align: center;
     color: black;
     font-family: Roboto Mono;
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 10px;
+    max-width: 50%;
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social {
@@ -245,6 +252,9 @@
 }
 
 iframe {
-    margin-bottom: 40px;
-    width: 30%;
+    margin-bottom: 30px;
+    width: 400px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
