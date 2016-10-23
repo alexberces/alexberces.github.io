@@ -110,33 +110,48 @@
     margin-left: auto;
     margin-right: auto;
 }
+}
 
-.interests h1 {
+#interests {
     width: 100%;
     font-family: Roboto Mono;
     font-weight: 400;
     font-size: 25px;
     text-align: center;
     color: black;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+    position: relative;
 }
 
 .interests div {
     max-height: 200px;
     text-align: center;
     display: inline-block;
+    height: 200px;
+}
+
+.interests div p {
     position: relative;
-    top: -15px;
+    top: -200px;
     height: 200px;
 }
 
 .interests img {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+#movies {
+    position: relative;
+    top: 20px;
     height: 200px;
 }
 
-#movies img {
-    position: relative;
-    top: 20px;
+#anime {
+    height: 200px;
+}
+
+#manga {
     height: 200px;
 }
 
@@ -188,7 +203,7 @@
     font-family: Roboto Mono;
     text-transform: uppercase;
     position: relative;
-    top: -180px;
+    top: -200px;
     height: 130px;
     width: 103px;
     padding-top: 70px;
@@ -203,9 +218,10 @@
     color: white;
 }
 
+
 .playlist {
     position: relative;
-    top: 10px;
+    top: 35px;
     width: 100%;
     text-align: center;
 }
