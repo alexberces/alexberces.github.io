@@ -32,7 +32,7 @@
 
 .nav p {
     position: relative;
-    top: -12px;
+    top: -28px;
     align-content: center;
     display: inline-block;
     text-align: center;
@@ -41,6 +41,8 @@
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
+    margin: 20px;
+    margin-bottom: 0px;
 }
 
 .nav a {
@@ -91,6 +93,109 @@
     font-family: Roboto Mono;
     font-size: 12px;
     font-weight: 300;
+}
+
+.interests {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: 15px;
+    height: 40%;
+}
+
+.interests h1 {
+    font-family: Roboto Mono;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: -2px;
+}
+
+.interests div {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    height: 200px;
+}
+
+#manga img {
+    height: 200px;
+}
+
+#movies img {
+    position: relative;
+    top: 20px;
+    height: 200px;
+}
+
+#anime img {
+    height: 200px;
+}
+
+#anime p {
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    position: relative;
+    top: -200px;
+    height: 130px;
+    width: 317px;
+    color: transparent;
+}
+
+#manga p {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    position: relative;
+    top: -200px;
+    height: 130px;
+    width: 227px;
+    padding-top: 70px;
+    color: transparent;
+}
+
+#manga p:hover {
+    background-color: black; opacity: 0.9;
+    transition: all 0.6s ease 0s;
+    color: white;
+}
+
+#anime p:hover {
+    background-color: black; opacity: 0.9;
+    transition: all 0.6s ease 0s;
+    color: white;
+}
+
+#movies p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    position: relative;
+    top: -180px;
+    height: 130px;
+    width: 103px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: transparent;
+}
+
+#movies p:hover {
+    background-color: black; opacity: 0.9;
+    transition: all 0.6s ease 0s;
+    color: white;
 }
 
 .playlist {
