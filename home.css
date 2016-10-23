@@ -200,7 +200,7 @@
 
 .playlist {
     position: relative;
-    top: 15px;
+    top: -90px;
     width: 100%;
     text-align: center;
 }
@@ -211,7 +211,7 @@
     font-size: 25px;
     text-align: center;
     color: black;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 
 .playlist p {
