@@ -61,7 +61,7 @@
     color: white;
 }
 
-#contact {
+.contact {
     padding-top: 10px;
     width: 100%;
     display: inline-block;
@@ -78,7 +78,7 @@
     color: black;
 }
 
-#contact div p {
+.contact div p {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -226,7 +226,7 @@
     font-size: 12px;
 }
 
-#skills {
+.skills {
     width: 100%;
     display: inline-block;
     position: relative;
@@ -243,7 +243,7 @@
     color: black;
 }
 
-#skills div p {
+.skills div p {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -257,7 +257,7 @@
     font-size: 12px;
 }
 
-#work {
+.work {
     width: 100%;
     display: inline-block;
     position: relative;
@@ -274,7 +274,7 @@
     color: black;
 }
 
-#work div p {
+.work div p {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -288,7 +288,7 @@
     font-size: 12px;
 }
 
-#awards {
+.awards {
     width: 100%;
     display: inline-block;
     position: relative;
@@ -305,7 +305,7 @@
     color: black;
 }
 
-#awards div p {
+.awards div p {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -319,7 +319,7 @@
     font-size: 12px;
 }
 
-#addinfo {
+.addinfo {
     width: 100%;
     display: inline-block;
     position: relative;
@@ -337,7 +337,7 @@
     color: black;
 }
 
-#addinfo div p {
+.addinfo div p {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
