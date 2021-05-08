@@ -70,7 +70,9 @@
 }
 
 #contacttitle {
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto Mono;
     font-weight: 500;
     font-size: 15px;
@@ -79,7 +81,7 @@
 }
 
 .contact div p {
-    width: 100%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -149,8 +151,10 @@
 }
 
 #pptitle {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 10px;
-    width: 100%;
     font-family: Roboto Mono;
     font-weight: 500;
     font-size: 25px;
@@ -204,7 +208,9 @@
 
 #edutitle {
     padding-top: 30px;
-    width: 100%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto Mono;
     font-weight: 500;
     font-size: 25px;
@@ -235,7 +241,9 @@
 
 #skillstitle {
     padding-top: 30px;
-    width: 100%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto Mono;
     font-weight: 500;
     font-size: 25px;
@@ -297,7 +305,9 @@
 
 #awardstitle {
     padding-top: 30px;
-    width: 100%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto Mono;
     font-weight: 500;
     font-size: 25px;
@@ -329,7 +339,9 @@
 
 #addinfotitle {
     padding-top: 30px;
-    width: 100%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto Mono;
     font-weight: 500;
     font-size: 25px;
